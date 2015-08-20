@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div{padding: 0;margin: 0;}
+        .div1{background-color: red;border:5px black solid;width: 550px;height: 550px;overflow: hidden;zoom: 1;}
+        .div2{background-color: blue;float:left;border: 5px blueviolet solid;width: 250px;height: 250px;}
+        .div3{background-color: yellowgreen;float: left;border: 5px darkmagenta solid;width: 250px;height: 500px;}
+    </style>
+</head>
+<body>
+<div class="div1">
+    <div class="div2">
+        <h1>
+            This is div2.
+        </h1>
+    </div>
+    <div class="div3">
+        <h1>
+            This is div3.
+        </h1>
+    </div>
+    <p>
+        This is a paragraph of div1.
+    </p>
+</div>
+</body>
+</html>
